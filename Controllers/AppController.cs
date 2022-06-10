@@ -10,7 +10,7 @@ namespace DutchTrest.Controllers
     {
         public IActionResult Index()
         {
-            throw new Exception("Som Bad things are happenning");
+            //throw new Exception("Som Bad things are happenning");
             return View();
             //This is commit from Github
             // The logic here can return multiple things
