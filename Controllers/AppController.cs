@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +12,7 @@ namespace DutchTrest.Controllers
         {
             throw new Exception("Som Bad things are happenning");
             return View();
+            //This is commit from Github
             // The logic here can return multiple things
             // Like redirect to a new page
             // Return view as in this case
