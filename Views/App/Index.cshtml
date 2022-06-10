@@ -1,0 +1,90 @@
+﻿@{ 
+    ViewBag.Title = "Home Page";
+}
+
+<html>
+<head>
+    <title>Dutch Treat: @ViewBag.Title</title>
+    <link href="~/css/ " rel="stylesheet" />
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>@ViewBag.Title</h1>
+    <p>This is <strong>going</strong> to be a site <a href="https://app.pluralsight.com/">where</a> we can buy Trest marchantized</p>
+    <div col class="col-6">
+        <ul class="list-group">
+            <li class="list-group-item">One</li>
+            <li class="list-group-item">Two</li>
+            <li class="list-group-item">Three</li>
+        </ul>
+    </div>
+    <div class="product-info">
+        <img src="~/Img/VanGogh.jpg" />
+        <h3> Mug</h3>
+        <ul class="product-props">
+            <li> Price: $9.99</li>
+            <li>Artist: Van Gogh</li>
+            <li>Title: </li>
+            <li>Description: Self Potrait</li>
+        </ul>
+        <button id="buyButton" class="btn btn-secondary">Buy</button>
+        <br />
+    </div>
+    <br />
+    <br />
+    <button id="toggleButton" class="btn btn-primary">Toggle</button>
+    <div id="theform">
+        <form class=" form-control">
+            <label>Your Name</label>
+            <br />
+            <input style="font-size:18px; width:200px;" />
+            <br />
+            <label>Email</label>
+            <br />
+            <input type="email" />
+            <br />
+            <label>Subject</label>
+            <br />
+            <input type="text" />
+            <br />
+            <label>Password</label>
+            <br />
+            <input type="password" />
+            <br />
+            <label>Message</label>
+            <br />
+            <textarea rows="4"></textarea>
+            <br />
+            <input type="submit" value="Send Message" />
+        </form>
+    </div>
+
+
+    <div>
+        <div id="loginToggle">Login</div>
+        <form class="popup-form">
+            <div>
+                <label>Username</label>
+                <input />
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" />
+            </div>
+            <div>
+                <label>Remember Me?</label>
+            </div>
+            <div>
+                <input type="submit" value="Login" />
+            </div>
+        </form>
+    </div>
+    <!--<script src="https://code.jquery.com/jquery-3.6.0.js"
+            integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+            crossorigin="anonymous"></script>-->
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="~/js/Index.js"></script>
+</body>
+
+</html>
