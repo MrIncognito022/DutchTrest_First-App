@@ -30,6 +30,10 @@ namespace DutchTrest
             //app.UseDefaultFiles();
             //app.UseStaticFiles();
 
+            //app.UseStaticFiles();
+            //app.UseRouting();
+
+
             app.UseStaticFiles();
             app.UseRouting();
             app.UseEndpoints(cfg =>
