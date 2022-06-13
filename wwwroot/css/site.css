@@ -21,7 +21,7 @@ label {
 ul.product-props{
     font-size:small;
     color:#071da5;
-    font-weight:1000;
+    font-weight:100;
 }
 ul.product-props li
 {
@@ -41,3 +41,16 @@ ul.product-props li
     border: 1px solid #000000;
     max-width: 150px
 }
+menu li{
+    display: inline;
+}
+menu li::after {
+    content: " |";
+}
+menu li:last-of-type::after
+{
+    content:"";
+}
+/*menu>ul>li{
+    display:inline;
+}*/

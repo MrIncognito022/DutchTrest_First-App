@@ -18,5 +18,15 @@ namespace DutchTrest.Controllers
             // Return view as in this case
             // Return an error etc.....
         }
+        public IActionResult Contact()
+        {
+            ViewBag.Title = "Contact Us";
+            return View();
+        }
+        public IActionResult About()
+        {
+            ViewBag.Title = "About Us";
+            return View();
+        }
     }
 }
